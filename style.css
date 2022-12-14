@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(13,98,23);
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.cabecalho-imagem {
+    height:72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Kanit', sans-serif; 
+    color: rgb(221, 210, 210); 
+    font-weight: 1000; 
+    font-size: 18px;
+    cursor: grab;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.1px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction:column;
+    gap: 20px
+}
+
+.conteudo-principal-titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+    font-size: xx-large; 
+    color: aliceblue;
+}
+
+.conteudo-principal-descricao {
+    font-family: 'Kanit', sans-serif; 
+    color: antiquewhite;
+    font-size: medium;
+}
+
+.conteudo-principal-escrito-botao {
+    font-family: 'Kanit', sans-serif; 
+    height: 60px;
+    width: 180px;
+    background-color:antiquewhite;
+    border: none;
+    box-shadow: 4px 5px 4px (0,0,0,0.25);
+    border-radius: 25%;
+    justify-content: center;
+    font-size: x-large;
+    align-items: center;
+    cursor: grab;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    
+}
+
+.conteudo-secundario-titulo {
+    font-family: 'Righteous', cursive; 
+    border-top: 0.4px solid;
+    padding-top: 49px;
+    color: #FFF2E7;
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 16px;
+    
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFF2E7;
+
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+
+}
+
